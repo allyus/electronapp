@@ -1,4 +1,4 @@
-npm install : 패키지 모두 받기 (한번만 식행)
+npm install : 패키지 모두 받기 (한번만 실행)
 
 npm run-script watch : 개발시 webpack 실행
 
