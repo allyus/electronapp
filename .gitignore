@@ -11,6 +11,6 @@ pids
 logs
 results
 
-node_modules
-OneQApp-win32-x64
+/node_modules
 npm-debug.log
+/OneQApp-win32-x64
