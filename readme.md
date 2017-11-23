@@ -1,14 +1,10 @@
+패키지 모두 받기 (한번만 식행)
 npm install
 
+개발시 webpack 실행
 npm run-script watch
 
-콘솔 다시 열기
-
+콘솔 다시 열고 electron 실행
 npm start
 
 
-
-
-배포 방법 : https://ourcodeworld.com/articles/read/262/how-to-build-publish-a-release-distribution-of-an-electron-application-with-the-cli
-
-electron-packager . --platform=win32 --arch=x64 App

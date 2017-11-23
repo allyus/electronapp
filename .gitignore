@@ -15,3 +15,4 @@ results
 npm-debug.log
 /node_modules
 /App-win32-x64
+/publishing.txt
