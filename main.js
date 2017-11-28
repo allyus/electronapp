@@ -14,13 +14,19 @@ app.on('window-all-closed', function() {
 app.on('ready', function() {
 
   // 새로운 브라우저 창을 생성
-  mainWindow = new BrowserWindow({width: 800, height: 600});
+  mainWindow = new BrowserWindow({width: 1920,
+                                  height: 1080, 
+                                  backgroundColor: '#252526',
+                                  resizable : true,
+                                  title : 'Hi HJP', 
+                                  darkTheme : true
+                                });
 
   // 그리고 현재 디렉터리의 index.html을 로드합니다.
   //
   mainWindow.loadURL('http://localhost:7777/');
 
-  mainWindow.openDevTools();
+  mainWindow.openDevTools();  
 
   // 선언한 윈도우창 닫기 이벤트
   mainWindow.on('closed', function() {
