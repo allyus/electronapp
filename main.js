@@ -16,7 +16,7 @@ app.on('ready', function() {
   // 새로운 브라우저 창을 생성
   mainWindow = new BrowserWindow({width: 1920,
                                   height: 1080, 
-                                  backgroundColor: '#252526',
+                                  backgroundColor: '#efefef',
                                   resizable : true,
                                   title : 'Hi HJP', 
                                   darkTheme : true
